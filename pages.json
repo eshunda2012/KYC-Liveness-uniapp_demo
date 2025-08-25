@@ -1,0 +1,35 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "易顺达活体检测Demo"
+			}
+		},
+		{
+			"path": "pages/verify/index",
+			"style": {
+				"navigationBarTitleText": "身份认证"
+			}
+		},
+		{
+			"path": "pages/result/index",
+			"style": {
+				"navigationBarTitleText": "认证结果"
+			}
+		},
+		{
+			"path": "pages/real-auth/index",
+			"style": {
+				"navigationBarTitleText": "实人认证"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
