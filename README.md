@@ -2,14 +2,8 @@
   <img src="banner.png" alt="人脸核身技术Banner" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); max-width: 800px;"/>
 </div>
 
-## 产品预览
-
-<div align="center" style="margin: 20px 0;">
-  <img src="rpverify.png" alt="人脸核身产品效果" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); max-width: 600px;"/>
-  <p style="margin-top: 10px; color: #666; font-size: 14px;">人脸核身产品效果图</p>
-</div>
-
-本项目基于 uni-app，集成了易顺达活体检测能力，并演示了两种认证流程：
+## 易顺达活体检测SDK uni-app 接入demo 
+演示了两种认证流程：
 - 活体检测（liveness）
 - 实人认证（real：姓名+身份证号+刷脸）
 
@@ -130,6 +124,27 @@ verify 页面会在初始化与核验接口中按需带上对应参数。
 ## 安全与合规
 - APPCODE 和用户敏感信息请勿硬编码到公网仓库
 - 生产环境请通过您自有服务器中转请求并签名校验
+
+## 产品预览
+
+<div align="center" style="margin: 20px 0;">
+  <img src="rpverify.png" alt="人脸核身产品效果" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); max-width: 600px;"/>
+  <p style="margin-top: 10px; color: #666; font-size: 14px;">人脸核身产品效果图</p>
+</div>
+
+
+### 产品体验
+<img src="miniprogram.jpg" alt="技术支持微信二维码" width="120" style="margin-left: 80px;"/>
+
+### 联系方式
+
+如有问题或建议，请通过以下方式联系：
+
+- 📧 **商务邮箱**：eshundaface@163.com
+- 💬 **技术支持微信**：扫描下方二维码添加
+
+<img src="technical support.png" alt="技术支持微信二维码" width="120" style="margin-left: 80px;"/>
+
 
 ## 免责声明
 本 Demo 仅用于功能演示，生产环境需做完整的异常处理、日志留存、鉴权与安全加固。
